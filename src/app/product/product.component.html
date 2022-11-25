@@ -1,0 +1,8 @@
+<p>product works!</p>
+<div *ngFor="let product of products">
+  <li>ID : {{ product.id }}</li>
+  <li>Name : {{ product.name | uppercase }}</li>
+  <li>Description : {{ product.description }}</li>
+  <li>Price : {{ product.price }}</li>
+  <li>Image : {{ product.image }}</li>
+</div>
